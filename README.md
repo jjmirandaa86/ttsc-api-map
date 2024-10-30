@@ -20,6 +20,20 @@ This project involves creating a microservice in Node.js designed to handle logi
 
 ## Installation
 
+# .env
+
+NODE_PORT=5001
+
+#mySql
+DB_HOST=localhost
+DB_USER=user
+DB_PASSWD=passwd
+DB=db
+DB_PORT=port
+
+#Settings BD
+ITEMS_PER_PAGE=3
+
 Install my-project with npm
 
 ```bash
