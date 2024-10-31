@@ -4,7 +4,7 @@ const router = express.Router();
 
 router
 	.get("/", (req, res) => {
-		res.status(200).json({ error: "welcome api" });
+		res.status(200).json({ message: "welcome api" });
 	})
 	.use("/user", userRoutes);
 
